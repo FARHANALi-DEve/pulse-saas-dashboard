@@ -50,20 +50,7 @@ Uploading this repository to GitHub does not publish a working authenticated app
 
 The archive deliberately removes the original Site project ID, Git remote/history, credentials, runtime data and dependencies. The original live Site is not changed by editing this copy.
 
-## Upload to your own GitHub repository
 
-Create an empty GitHub repository, then run these commands from this project folder, replacing YOUR_USERNAME:
-
-```sh
-git init
-git add .
-git commit -m "Initial Pulse SaaS dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/pulse-saas-dashboard.git
-git push -u origin main
-```
-
-A ZIP is imported/uploaded into a repository. GitHub's **Fork** button applies to an existing GitHub repository; once uploaded, this repository can be forked normally. There is no need to upload `node_modules`, `.wrangler`, `.sites-runtime`, `dist`, or secrets.
 
 ## Where to edit
 
